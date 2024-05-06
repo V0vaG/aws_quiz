@@ -52,6 +52,7 @@ def play():
                 os.system("clear")
         else:
             print("Game Over!\n")
+            exit()
     play()
 
 def edit():
