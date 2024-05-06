@@ -3,6 +3,7 @@ import os
 import time
 
 json_file = "qa.json"
+os.system("git fetch && git pull")
 
 def showOptionAnswer(question_dict, isFiftyFifty):
     print("\n {questionNo}) {question}".format(questionNo=i + 1, question=question_dict['q']))
