@@ -230,4 +230,28 @@
     "3": "AWS Cloud9.",
     "4": "AWS Personal Health Dashboard.",
     "ca": "1"
+},
+{
+    "q": "Which of the following services will help businesses ensure compliance in AWS?",
+    "1": "CloudFront.",
+    "2": "CloudEndure Migration.",
+    "3": "CloudWatch.",
+    "4": "CloudTrail.",
+    "ca": "4"
+},
+{
+    "q": "Which of the following procedures will help reduce your Amazon S3 costs?",
+    "1": "Use the Import/Export feature to move old files automatically to Amazon Glacier.",
+    "2": "Use the right combination of storage classes based on different use cases.",
+    "3": "Pick the right Availability Zone for your S3 bucket.",
+    "4": "Move all the data stored in S3 standard to EBS.",
+    "ca": "2"
+},
+{
+    "q": "Which of the following activities may help reduce your AWS monthly costs?",
+    "1": "Enabling Amazon EC2 Auto Scaling for all of your workloads.",
+    "2": "Using the AWS Network Load Balancer (NLB) to load balance the incoming HTTP requests.",
+    "3": "Removing all of your Cost Allocation Tags.",
+    "4": "Deploying your AWS resources across multiple Availability Zones.",
+    "ca": "1"
 }]
