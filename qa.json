@@ -1,0 +1,177 @@
+[
+	{
+	 "q":"A global company with a large number of AWS accounts is seeking a way in which they can centrally manage billing and security policies across all accounts. Which AWS Service will assist them in meeting these goals?",
+	 "1":"AWS Organizations",
+	 "2":"AWS Trusted Advisor",
+	 "3":"IAM User Groups",
+	 "4":"AWS Config",
+	 "ca":"1"
+	},
+	{
+	 "q":"Which service provides object-level storage in AWS?",
+	 "1":"Amazon EBS.",
+	 "2":"Amazon Instance Store.",
+	 "3":"Amazon EFS.",
+	 "4":"Amazon S3.",
+	 "ca":"4"
+	},
+	{
+	 "q":"A company is concerned that they are spending money on underutilized compute resources in AWS. Which AWS feature will help ensure that their applications are automatically adding/removing EC2 compute capacity to closely match the required demand?",
+	 "1":"AWS Elastic Load Balancer.",
+	 "2":"AWS Budgets.",
+	 "3":"AWS Auto Scaling.",
+	 "4":"AWS Cost Explorer.",
+	 "ca":"3"
+	},
+	{
+	 "q":"Which of the below is a best-practice when designing solutions on AWS?",
+	 "1":"Invest heavily in architecting your environment, as it is not easy to change your design later.",
+	 "2":"Use AWS reservations to reduce costs when testing your production environment.",
+	 "3":"Automate wherever possible to make architectural experimentation easier.",
+	 "4":"Provision a large compute capacity to handle any spikes in load.",
+	 "ca":"3"
+	},
+    {
+    "q": "Which service is used to ensure that messages between software components are not lost if one or more components fail?",
+    "1": "Amazon SQS.",
+    "2": "Amazon SES.",
+    "3": "AWS Direct Connect.",
+    "4": "Amazon Connect.",
+    "ca": "1"
+},
+{
+    "q": "Which S3 storage class is best for data with unpredictable access patterns?",
+    "1": "Amazon S3 Intelligent-Tiering.",
+    "2": "Amazon S3 Glacier Flexible Retrieval.",
+    "3": "Amazon S3 Standard.",
+    "4": "Amazon S3 Standard-Infrequent Access.",
+    "ca": "1"
+},
+{
+    "q": "What is the AWS database service that allows you to upload data structured in key-value format?",
+    "1": "Amazon DynamoDB.",
+    "2": "Amazon Aurora.",
+    "3": "Amazon Redshift.",
+    "4": "Amazon RDS.",
+    "ca": "1"
+},
+{
+    "q": "Which of the following is NOT correct regarding Amazon EC2 On-demand instances?",
+    "1": "You have to pay a start-up fee when launching a new instance for the first time.",
+    "2": "The on-demand instances follow the AWS pay-as-you-go pricing model.",
+    "3": "With on-demand instances, no longer-term commitments or upfront payments are needed.",
+    "4": "When using on-demand Linux instances, you are charged per second based on an hourly rate.",
+    "ca": "1"
+},
+{
+    "q": "What is the AWS feature that provides an additional level of security above the default authentication mechanism of usernames and passwords?",
+    "1": "Encrypted keys.",
+    "2": "Email verification.",
+    "3": "AWS KMS.",
+    "4": "AWS MFA.",
+    "ca": "4"
+},
+{
+    "q": "A company is introducing a new product to their customers, and is expecting a surge in traffic to their web application. As part of their Enterprise Support plan, which of the following provides the company with architectural and scaling guidance?",
+    "1": "AWS Knowledge Center.",
+    "2": "AWS Health Dashboard.",
+    "3": "Infrastructure Event Management.",
+    "4": "AWS Support Concierge Service.",
+    "ca": "3"
+},
+{
+    "q": "You work as an on-premises MySQL DBA. The work of database configuration, backups, patching, and DR can be time-consuming and repetitive. Your company has decided to migrate to the AWS Cloud. Which of the following can help save time on database maintenance so you can focus on data architecture and performance?",
+    "1": "Amazon RDS.",
+    "2": "Amazon Redshift.",
+    "3": "Amazon DynamoDB.",
+    "4": "Amazon CloudWatch.",
+    "ca": "1"
+},
+{
+    "q": "According to the AWS Acceptable Use Policy, which of the following statements is true regarding penetration testing of EC2 instances?",
+    "1": "Penetration testing is not allowed in AWS.",
+    "2": "Penetration testing is performed automatically by AWS to determine vulnerabilities in your AWS infrastructure.",
+    "3": "Penetration testing can be performed by the customer on their own instances without prior authorization from AWS.",
+    "4": "The AWS customers are only allowed to perform penetration testing on services managed by AWS.",
+    "ca": "3"
+},
+{
+    "q": "What is the AWS service that provides a virtual network dedicated to your AWS account?",
+    "1": "AWS VPN.",
+    "2": "AWS Subnets.",
+    "3": "AWS Dedicated Hosts.",
+    "4": "Amazon VPC.",
+    "ca": "4"
+},
+{
+    "q": "Your company is designing a new application that will store and retrieve photos and videos. Which of the following services should you recommend as the underlying storage mechanism?",
+    "1": "Amazon EBS.",
+    "2": "Amazon SQS.",
+    "3": "Amazon S3.",
+    "4": "Amazon Instance store.",
+    "ca": "3"
+},
+{
+    "q": "Which of the following is equivalent to a user name and password and is used to authenticate your programmatic access to AWS services and APIs?",
+    "1": "Instance Password.",
+    "2": "Key pairs.",
+    "3": "Access Keys.",
+    "4": "MFA.",
+    "ca": "3"
+},
+{
+    "q": "What does Amazon ElastiCache provide?",
+    "1": "In-memory caching for read-heavy applications.",
+    "2": "An Ehcache compatible in-memory data store.",
+    "3": "An online software store that allows Customers to launch pre-configured software with just few clicks.",
+    "4": "A domain name system in the cloud.",
+    "ca": "1"
+},
+{
+    "q": "What is the AWS service that enables you to manage all of your AWS accounts from a single master account?",
+    "1": "AWS WAF.",
+    "2": "AWS Trusted Advisor.",
+    "3": "AWS Organizations.",
+    "4": "Amazon Config.",
+    "ca": "3"
+},
+{
+    "q": "Which of the following EC2 instance purchasing options supports the Bring Your Own License (BYOL) model for almost every BYOL scenario?",
+    "1": "Dedicated Instances.",
+    "2": "Dedicated Hosts.",
+    "3": "On-demand Instances.",
+    "4": "Reserved Instances.",
+    "ca": "2"
+},
+{
+    "q": "Which of the following is one of the benefits of moving infrastructure from an on-premises data center to AWS?",
+    "1": "Free support for all enterprise customers.",
+    "2": "Automatic data protection.",
+    "3": "Reduced Capital Expenditure (CapEx).",
+    "4": "AWS holds responsibility for managing customer applications.",
+    "ca": "3"
+},
+{
+    "q": "Which AWS Service can be used to establish a dedicated, private network connection between AWS and your datacenter?",
+    "1": "AWS Direct Connect.",
+    "2": "Amazon CloudFront.",
+    "3": "AWS Snowball.",
+    "4": "Amazon Route 53.",
+    "ca": "1"
+},
+{
+    "q": "You are working on two projects that require completely different network configurations. Which AWS service or feature will allow you to isolate resources and network configurations?",
+    "1": "Internet gateways.",
+    "2": "Virtual Private Cloud.",
+    "3": "Security Groups.",
+    "4": "Amazon CloudFront.",
+    "ca": "2"
+},
+{
+    "q": "Which of the following services can help protect your web applications from SQL injection and other vulnerabilities in your application code?",
+    "1": "Amazon Cognito.",
+    "2": "AWS IAM.",
+    "3": "Amazon Aurora.",
+    "4": "AWS WAF.",
+    "ca": "4"
+}]
