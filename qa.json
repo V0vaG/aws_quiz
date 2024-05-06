@@ -254,4 +254,36 @@
     "3": "Removing all of your Cost Allocation Tags.",
     "4": "Deploying your AWS resources across multiple Availability Zones.",
     "ca": "1"
+},
+{
+    "q": "What is the AWS service/feature that takes advantage of Amazon CloudFront\u2019s globally distributed edge locations to transfer files to S3 with higher upload speeds?",
+    "1": "S3 Transfer Acceleration.",
+    "2": "AWS WAF.",
+    "3": "AWS Snowmobile.",
+    "4": "AWS Snowball.",
+    "ca": "1"
+},
+{
+    "q": "Which of the following AWS security features is associated with an EC2 instance and functions to filter incoming traffic requests?",
+    "1": "AWS X-Ray.",
+    "2": "Network ACL.",
+    "3": "Security Groups.",
+    "4": "VPC Flow logs.",
+    "ca": "3"
+},
+{
+    "q": "A company has a large amount of structured data stored in their on-premises data center. They are planning to migrate all the data to AWS, what is the most appropriate AWS database option?",
+    "1": "Amazon DynamoDB.",
+    "2": "Amazon SNS.",
+    "3": "Amazon RDS.",
+    "4": "Amazon ElastiCache.",
+    "ca": "3"
+},
+{
+    "q": "A company has created a solution that helps AWS customers improve their architectures on AWS. Which AWS program may support this company?",
+    "1": "APN Consulting Partners.",
+    "2": "AWS TAM.",
+    "3": "APN Technology Partners.",
+    "4": "AWS Professional Services.",
+    "ca": "1"
 }]
