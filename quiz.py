@@ -17,7 +17,7 @@ def showOptionAnswer(question_dict, isFiftyFifty):
         optionBuilder += key + "/"
         print(" <{optionNo}> {option}".format(optionNo=key, option=value))
 
-    print("\nScore: ", score, "(", rightAnswer, "/", i, ")")
+    print("\nScore: ", score, "% (", rightAnswer, "/", i, ")")
     answer = input("Enter the option (1/2/3/4) or 0 to quit: ")
     return answer
 

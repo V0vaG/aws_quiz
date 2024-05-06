@@ -198,4 +198,36 @@
     "3": "A user name and password.",
     "4": "Access keys.",
     "ca": "3"
+},
+{
+    "q": "In your on-premises environment, you can create as many virtual servers as you need from a single template. What can you use to perform the same in AWS?",
+    "1": "IAM.",
+    "2": "An internet gateway.",
+    "3": "EBS Snapshot.",
+    "4": "AMI.",
+    "ca": "4"
+},
+{
+    "q": "Which statement best describes the operational excellence pillar of the AWS Well-Architected Framework?",
+    "1": "The ability of a system to recover gracefully from failure.",
+    "2": "The efficient use of computing resources to meet requirements.",
+    "3": "The ability to monitor systems and improve supporting processes and procedures.",
+    "4": "The ability to manage datacenter operations more efficiently.",
+    "ca": "3"
+},
+{
+    "q": "AWS has created a large number of Edge Locations as part of its Global Infrastructure. Which of the following is NOT a benefit of using Edge Locations?",
+    "1": "Edge locations are used by CloudFront to cache the most recent responses.",
+    "2": "Edge locations are used by CloudFront to improve your end users\u2019 experience when uploading files.",
+    "3": "Edge locations are used by CloudFront to distribute traffic across multiple instances to reduce latency.",
+    "4": "Edge locations are used by CloudFront to distribute content to global users with low latency.",
+    "ca": "3"
+},
+{
+    "q": "Which of the following services allows you to run containerized applications on a cluster of EC2 instances?",
+    "1": "Amazon ECS.",
+    "2": "AWS Data Pipeline.",
+    "3": "AWS Cloud9.",
+    "4": "AWS Personal Health Dashboard.",
+    "ca": "1"
 }]
