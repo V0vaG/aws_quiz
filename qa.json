@@ -174,4 +174,28 @@
     "3": "Amazon Aurora.",
     "4": "AWS WAF.",
     "ca": "4"
+},
+{
+    "q": "An organization needs to analyze and process a large number of data sets. Which AWS service should they use?",
+    "1": "Amazon EMR.",
+    "2": "Amazon MQ.",
+    "3": "Amazon SNS.",
+    "4": "Amazon SQS.",
+    "ca": "1"
+},
+{
+    "q": "What is the AWS service that provides you the highest level of control over the underlying virtual infrastructure?",
+    "1": "Amazon Redshift.",
+    "2": "Amazon DynamoDB.",
+    "3": "Amazon EC2.",
+    "4": "Amazon RDS.",
+    "ca": "3"
+},
+{
+    "q": "What are the default security credentials that are required to access the AWS management console for an IAM user account?",
+    "1": "MFA.",
+    "2": "Security tokens.",
+    "3": "A user name and password.",
+    "4": "Access keys.",
+    "ca": "3"
 }]

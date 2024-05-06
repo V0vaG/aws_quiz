@@ -87,7 +87,7 @@ def edit():
 
     input_question()
 
-print(" ~~~~~~ WELCOME TO QUIZ APP ~~~~~")
+print(" ##### Welcome to Vovas's  AWS cpp quiz #####")
 ansx = input("Enter p-play, e-edit: ")
 if ansx == 'p':
     time.sleep(1)
