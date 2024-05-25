@@ -2,8 +2,9 @@ import json
 import os
 import time
 
-json_file = "qa.json"
-os.system("git fetch && git pull")
+json_file = "qa1.json"
+os.environ['json_file'] = json_file
+#os.system("git fetch && git pull")
 
 def showOptionAnswer(question_dict, isFiftyFifty):
     print("\n {questionNo}) {question}".format(questionNo=i + 1, question=question_dict['q']))
@@ -90,7 +91,7 @@ def edit():
     input_question()
 
 print(" ##### Welcome to Vovas's  AWS cpp quiz #####")
-ansx = input("Enter p-play, e-edit: ")
+ansx = input("Enter p-play, e-edit, n-create new quiz: ")
 if ansx == 'p':
     time.sleep(1)
     os.system("clear")
@@ -99,6 +100,10 @@ elif ansx == 'e':
     edit()
     time.sleep(1)
     os.system("clear")
+#elif ansx == 'n':
+#    new()
+#    time.sleep(1)
+#    os.system("clear")
 else:
     exit()
 

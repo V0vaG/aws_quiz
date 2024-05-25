@@ -1,0 +1,17 @@
+[
+{
+    "q": "what is your name?",
+    "1": "right answer",
+    "2": "mamu",
+    "3": "baby",
+    "4": "layka",
+    "ca": "1"
+},
+{
+    "q": "mamu?",
+    "1": "yes",
+    "2": "no",
+    "3": "right answer",
+    "4": "!!!",
+    "ca": "3"
+}]
